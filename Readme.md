@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Anna Parasyuta](https://up.htmlacademy.ru/adaptive/26/user/1719055).
-* Наставник: `Неизвестно`.
+* Наставник: `Arthur Litovko`.
 
 ---
 
