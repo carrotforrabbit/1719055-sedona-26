@@ -1,0 +1,34 @@
+.footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer__link {
+  font-size: 21px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-social__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-social__item {
+  width: 48px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.footer__copyright__text {
+  font-family: inherit;
+  font-size: 14px;
+  text-transform: uppercase;
+}

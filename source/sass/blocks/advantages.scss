@@ -1,0 +1,40 @@
+.advantages {
+  text-align: center;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantages__item {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__item-text {
+  color: #ffffff;
+  background-color: #81b3d2;
+
+  &--main {
+    color: #000000;
+    background-color: #d6d6d6;
+  }
+
+  &--sublist {
+    color: #000000;
+  }
+}
+
+.advantages__title,
+.advantages__description,
+.advantages__number {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__title-photo {
+  margin: 0;
+  padding: 0;
+}
