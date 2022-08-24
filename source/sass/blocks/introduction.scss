@@ -1,5 +1,5 @@
 .introduction__wrapper {
-  background-image: url("../img/intro-back-mobile.jpg");
+  background-image: url("/img/main-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #68a2ca;
@@ -14,4 +14,20 @@
   display: block;
   margin: 0 auto;
   padding: 90px 0 85px 0;
+}
+
+.introduction__title {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .introduction__container {
+    padding: 47px 124px 56px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .introduction__container {
+    padding: 59px 357px 45px;
+  }
 }

@@ -14,16 +14,21 @@
 }
 
 .advantages__item-text {
+  margin: 0;
+  padding: 40px 16px;
   color: #ffffff;
   background-color: #81b3d2;
 
   &--main {
+    padding: 24px 30px;
     color: #000000;
     background-color: #d6d6d6;
   }
 
   &--sublist {
+    padding: 40px 35px;
     color: #000000;
+    background-color: #ffffff;
   }
 }
 
@@ -34,7 +39,28 @@
   padding: 0;
 }
 
-.advantages__title-photo {
+.advantages__title {
   margin: 0;
+  margin-bottom: 11px;
   padding: 0;
+}
+
+.advantages__number {
+  margin-bottom: 17px;
+}
+
+@media (min-width: 768px) {
+  .advantages__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    grid-template-rows: repeat(256px, 4);
+  }
+}
+
+@media (min-width: 1200px) {
+  .advantages__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(256px, 4);
+  }
 }

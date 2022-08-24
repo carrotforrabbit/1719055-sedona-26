@@ -1,0 +1,42 @@
+.footer-social {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.footer-social__list {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-social__item {
+  margin: 0 6px;
+}
+
+.footer-social__link {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 17px 12px;
+  background-color: #81b3d2;
+
+  &--telegram {
+    padding: 15px 13px;
+  }
+
+  &--youtube {
+    padding: 17px 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-social {
+    margin-bottom: 0;
+  }
+}
