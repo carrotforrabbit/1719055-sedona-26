@@ -1,5 +1,5 @@
+@import "./global/variables.scss";
 @import "./blocks/fonts.scss";
-@import "./blocks/visually-hidden.scss";
 @import "./blocks/navigation.scss";
 @import "./blocks/introduction.scss";
 @import "./blocks/title.scss";
@@ -10,9 +10,11 @@
 @import "./blocks/footer.scss";
 @import "./blocks/form.scss";
 @import "./blocks/catalog.scss";
-@import "./blocks/catalog-list.scss";
 @import "./blocks/hotel-search.scss";
 @import "./blocks/body.scss";
-@import "./blocks/variables.scss";
 @import "./blocks/map.scss";
 @import "./blocks/footer-social.scss";
+@import "./blocks/catalog-card.scss";
+@import "./blocks/video.scss";
+@import "./blocks/review-container.scss";
+@import "./blocks/visually-hidden.scss";

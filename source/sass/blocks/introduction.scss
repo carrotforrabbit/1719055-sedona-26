@@ -20,14 +20,11 @@
   margin-bottom: 35px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .introduction__container {
-    padding: 47px 124px 56px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .introduction__container {
-    padding: 59px 357px 45px;
+    width: 520px;
+    display: block;
+    margin: 0 auto;
+    padding: 59px 0 45px;
   }
 }

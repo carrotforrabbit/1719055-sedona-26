@@ -14,7 +14,7 @@
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .hotel-search {
     padding: 61px 155px 58px 155px;
   }
@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $desktop-width) {
   .hotel-search {
     padding: 61px 371px 66px 371px;
   }

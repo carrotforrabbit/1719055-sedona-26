@@ -1,6 +1,38 @@
-.introduction-inner {
+.introduction-inner__container {
+  padding: 67px 0;
   background-image: url("../img/intro-inner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #d6d6d6;
+}
+
+.introduction-inner__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.introduction-inner__discription-container {
+  display: block;
+  padding: 67px 22px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .introduction-inner__discription-container {
+    width: 430px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .introduction-inner__discription-container {
+    width: 430px;
+    display: block;
+    margin: 0 auto;
+  }
 }
